@@ -24,3 +24,6 @@ population:
   year: 2025
   release: R2025A
   file: cmr_pop_2025_CN_100m_R2025A_v1.tif
+  
+ookla:
+  filter_zoom: 8

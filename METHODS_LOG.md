@@ -95,3 +95,14 @@
 - **Alternative rejected:** Unconstrained WorldPop (spreads people into
   uninhabited areas), and a separate population year per quarter (adds
   complexity for little gain over a 2–3 year period).
+
+  ## 2026-11-23 – Spatial pre-filter for Ookla data
+- **Decision:** Pre-filter Ookla's global files with the list of zoom-8
+  quadkeys whose squares intersect Cameroon (36 squares).
+- **Reason:** Every zoom-16 Ookla tile shares the first 8 digits of the
+  zoom-8 square that contains it, so this filter keeps all of Cameroon's
+  tiles while discarding most of the world. It makes downloads fast and
+  cheap. Exact clipping to the national border is done later, in Step 6.
+- **Alternative rejected:** Downloading full global files and clipping
+  locally (several hundred MB per file, slow), or filtering by bounding
+  box only (keeps many more tiles from neighbouring countries).

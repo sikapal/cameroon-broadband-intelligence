@@ -1,0 +1,2 @@
+Raster vs departments: 0.07% gap, well under the 1% limit. Almost no population is lost along the borders.
+WorldPop vs UN: 29,499,946 against 29,879,337, so WorldPop is 1.3% lower.That's normal for two independent estimates.
