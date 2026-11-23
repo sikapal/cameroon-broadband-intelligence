@@ -83,3 +83,15 @@
 - **Decision:** Metropolis departments are referenced by P-code in config.yaml:
   CM005004 (Wouri, Douala) and CM002007 (Mfoundi, Yaoundé).
 - **Reason:** Codes are stable and independent of spelling or accents, unlike names.
+
+## 2026-11-23 – Population source and year
+- **Decision:** Use WorldPop constrained 100 m population, release R2025A,
+  year 2025 (cmr_pop_2025_CN_100m_R2025A_v1.tif). Population summed per
+  department with zonal statistics (cells counted where their centre falls).
+- **Reason:** Constrained estimates place people only where buildings exist,
+  which suits a country with large forested and sparsely settled areas.
+  2025 is the middle of the study period. Raster total: <your number>;
+  UN 2025 estimate: 29,879,337. Downloaded on <date>.
+- **Alternative rejected:** Unconstrained WorldPop (spreads people into
+  uninhabited areas), and a separate population year per quarter (adds
+  complexity for little gain over a 2–3 year period).

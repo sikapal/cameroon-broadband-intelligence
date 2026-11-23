@@ -19,3 +19,8 @@ paths:
   raw: data/raw
   interim: data/interim
   processed: data/processed
+
+population:
+  year: 2025
+  release: R2025A
+  file: cmr_pop_2025_CN_100m_R2025A_v1.tif
