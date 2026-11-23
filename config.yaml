@@ -1,0 +1,19 @@
+study:
+  start_year: 2024
+  start_quarter: 1
+  net_types: [fixed, mobile]
+  metro_departments: [Wouri, Mfoundi]   # fixed, never change after seeing results
+
+reliability:
+  min_tests_department: 30
+  min_tests_tile: 5
+
+tiers:   # Mbps and ms
+  good:   {down: 10, up: 3, latency: 50}
+  usable: {down: 3,  up: 1, latency: 100}
+  basic:  {down: 1}
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed

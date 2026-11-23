@@ -1,0 +1,11 @@
+duckdb
+pandas
+pyarrow
+geopandas
+shapely
+mercantile
+rasterio
+rasterstats
+pyyaml
+matplotlib
+jupyter
