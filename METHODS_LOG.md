@@ -68,3 +68,18 @@
   as the US FCC 100/20 Mbps. Designed for a different market, it would
   classify almost all of Cameroon as unserved and hide meaningful differences
   between areas.
+
+  ## 2026-11-23 – Administrative boundaries source
+- **Decision:** Use OCHA COD-AB for Cameroon (version v01, valid from 2019-01-04),
+  standard layers cmr_admin1 (regions) and cmr_admin2 (departments).
+- **Reason:** Official boundary set used by the UN, with stable P-codes for every
+  region and department. Joining on codes avoids errors from spelling and accents.
+  Standard layers used, not the edge-matched (_em) ones, which are meant for
+  cartography. Downloaded from HDX on <date>.
+- **Alternative rejected:** GADM 4.1. Widely used, but joins would rely on names,
+  and its license restricts commercial reuse.
+
+## 2026-11-23 – Metropolises identified by code
+- **Decision:** Metropolis departments are referenced by P-code in config.yaml:
+  CM005004 (Wouri, Douala) and CM002007 (Mfoundi, Yaoundé).
+- **Reason:** Codes are stable and independent of spelling or accents, unlike names.

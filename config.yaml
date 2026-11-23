@@ -1,8 +1,10 @@
+
+
 study:
   start_year: 2024
   start_quarter: 1
   net_types: [fixed, mobile]
-  metro_departments: [Wouri, Mfoundi]   # fixed, never change after seeing results
+  metro_dept_codes: [CM005004, CM002007]   # Wouri (Douala), Mfoundi (Yaoundé) 
 
 reliability:
   min_tests_department: 30
